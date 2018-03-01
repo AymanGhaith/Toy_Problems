@@ -5,4 +5,8 @@
 	// 37 ===> 40
  function closestMultipleOf10(num) {
  	//your code is here
+ 	if (num<10 && num > -10){
+ 		return 0;
+ 	}
+ 	return num-(num%10);
  }
